@@ -1,0 +1,20 @@
+Daemon which registers clock events.
+
+Interfaces:
+- GUI
+- dbus
+- cli
+- watcher / watchdog / monitor / whatever
+
+The protocol is a push protocol. The watcher does pushing.
+
+* watcher
+A program which monitors a few things to make clocking reports.
+
+via ... dbus?
+
+can be understood better later.
+
+
+
+and queries Program
